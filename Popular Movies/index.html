@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&family=Fredoka+One&family=Questrial&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="file:///D:/Back%20up%20Mihai/Projects%20Codecademy/Movie%20Finder%20extended%202/Discover%20Movie/public/style.css">
+    <script defer src="https://kit.fontawesome.com/e918d10e90.js" crossorigin="anonymous"></script>
+    <script defer src="file:///D:/Back%20up%20Mihai/Projects%20Codecademy/Movie%20Finder%20extended%202/Discover%20Movie/public/helpers.js"></script>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <a href="file:///D:/Back%20up%20Mihai/Projects%20Codecademy/Movie%20Finder%20extended%202/index.html"><img src="file:///D:/Back%20up%20Mihai/Projects%20Codecademy/Movie%20Finder%20extended%202/public/img/arrow.png">Return to the Main Page</a>
+    <header>
+      <h1 id="appTitle">🍿Movie Finder🍿</h1>
+      <h3 id="text">Most popular movies right here!</h3>
+    </header>
+    <form id="genreForm">
+      <label>Choose a genre:</label>
+      <select name="genres" id="genres">
+      </select>
+    </form>
+    <button id="playBtn">Let's Play!</button>
+    <div id="movieInfo">
+      <div id="moviePoster"></div>
+      <div id="movieRating"></div>
+      <div id="movieText"></div>
+      <div id="movieViews"></div>
+    </div>
+    <div id="likeOrDislikeBtns" hidden>
+      <button id="likeBtn"><i class="fa-solid fa-thumbs-up"></i></button>
+      <button id="dislikeBtn"><i class="fa-solid fa-thumbs-down"></i></button>
+    </div>
+  </body>
+</html>

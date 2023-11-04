@@ -1,0 +1,41 @@
+body {
+    background-color: #7f0920;
+    
+    text-align: center;
+}
+
+#appTitle {
+
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 80px;
+}
+
+.container {
+    border: 1.25px solid black;
+    width: 250px;
+    height: 370px;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 78px;
+    text-align: center;
+    background-color: rgb(244, 216, 216);
+    padding-top: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(117, 100, 0);  
+}
+
+.container:hover {
+    box-shadow: 5px 10px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
