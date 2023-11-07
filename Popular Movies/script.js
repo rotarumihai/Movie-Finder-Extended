@@ -1,4 +1,5 @@
-// import  {tmdbKey}  from "./api_key.js";
+
+// import  {tmdbKey}  from "./'Discover Movie'/public/api_key.js";
 
 const tmdbKey = 'aa383923b07973939bcc6d31911647af';
 const tmdbBaseUrl = 'https://api.themoviedb.org/3';
